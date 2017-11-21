@@ -1,0 +1,39 @@
+{
+	"name": "testing-workshop",
+	"version": "0.0.0",
+	"description": "Code for testing workshop",
+	"main": "dist/index.js",
+	"repository": "https://github.com/BartWaardenburg/TestWorkshop.git",
+	"author": "Bart Waardenburg <bwaardenburg@anwb.nl>",
+	"license": "MIT",
+	"scripts": {
+		"test": "jest --watch"
+	},
+	"jest": {
+		"verbose": true,
+		"setupFiles": [
+			"<rootDir>/helpers/jest-setup.js"
+		]
+	},
+	"dependencies": {
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.0.2",
+		"babel-jest": "^21.2.0",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"eslint": "^4.11.0",
+		"eslint-config-prettier": "^2.8.0",
+		"eslint-plugin-flowtype": "^2.39.1",
+		"eslint-plugin-jest": "^21.3.2",
+		"eslint-plugin-prettier": "^2.3.1",
+		"eslint-plugin-react": "^7.5.1",
+		"flow-bin": "^0.59.0",
+		"jest": "^21.2.1",
+		"jest-fetch-mock": "^1.3.3",
+		"mockdate": "^2.0.2",
+		"preact": "^8.2.6",
+		"preact-render-spy": "^1.2.1",
+		"prettier": "^1.8.2"
+	}
+}
